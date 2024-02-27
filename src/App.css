@@ -1,0 +1,95 @@
+@media only screen and (max-width: 1200px) {
+  .App {
+    text-align: center;
+    height: auto;
+    width: 100%;
+    background: linear-gradient(180deg, #383a54 0%, #346d7d 100%);
+  }
+
+  #city {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin: 0.25rem;
+    width: 100%;
+    height: 3rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #676767;
+  }
+
+  .current {
+    width: 100%;
+    margin: 0.25rem;
+    font-size: 2rem;
+    color: white;
+  }
+
+  .weekly-container {
+    font-size: 1.25rem;
+    color: #ffffff;
+  }
+
+  .weather-items {
+    margin-top: 1rem;
+  }
+
+  .weather-item {
+    width: 100%;
+    border: 1px solid #9c9c9c;
+    text-align: center;
+  }
+}
+
+
+@media only screen and (min-width: 1200px) {
+  .App {
+    text-align: center;
+    width: 100%;
+    height: 1200px;
+    background: linear-gradient(180deg, #383a54 0%, #346d7d 100%);
+  }
+
+  #city {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 50%;
+    height: 3rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #676767;
+    border-radius: 1rem;
+  }
+
+  .current {
+    border: 2px solid #9c9c9c;
+    border-radius: 2rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 27%;
+    height: 400px;
+    margin: 2rem;
+    float: left;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.88);
+  }
+
+
+  .weekly-container {
+    font-size: 1.25rem;
+    color: #ffffff;
+  }
+
+  .weather-items {
+    display: flex;
+    margin-top: 6rem;
+  }
+
+  .weather-item {
+    border: 1px solid #9c9c9c;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-left: 1rem;
+  }
+
+}
